@@ -1,0 +1,38 @@
+# Node.js dependencies and build
+server/node_modules/
+
+# React build and dependencies
+webapp/node_modules/
+webapp/build/
+webapp/.env
+webapp/.env.*
+
+# Arduino build artifacts
+arduino/irrigation-firmware/*.bin
+arduino/irrigation-firmware/*.elf
+arduino/irrigation-firmware/*.hex
+arduino/irrigation-firmware/*.eep
+arduino/irrigation-firmware/*.dmp
+arduino/irrigation-firmware/*.map
+arduino/irrigation-firmware/*.out
+arduino/irrigation-firmware/*.a
+arduino/irrigation-firmware/*.o
+arduino/irrigation-firmware/*.d
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings
+.vscode/
+
+# Misc
+*.swp
+*.swo
+.idea/ 
